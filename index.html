@@ -17,6 +17,10 @@
             width: 50%;
             margin: auto;
         }
+        .name
+        {
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -39,20 +43,20 @@
                  </td>
 
                  <td>
-                 <input type="text" id="name" maxlength="1" size="1" >
-                 <input type="text" id="name" maxlength="1" size="1" >
-                 <input type="text" id="name" maxlength="1" size="1" >
-                 <input type="text" id="name" maxlength="1" size="1" >
-                 <input type="text" id="name" maxlength="1" size="1" >
-                 <input type="text" id="name" maxlength="1" size="1" >
-                 <input type="text" id="name" maxlength="1" size="1" >
-                 <input type="text" id="name" maxlength="1" size="1" >
-                 <input type="text" id="name" maxlength="1" size="1" >
-                 <input type="text" id="name" maxlength="1" size="1" >
-                 <input type="text" id="name" maxlength="1" size="1" > 
-                 <input type="text" id="name" maxlength="1" size="1" > 
-                 <input type="text" id="name" maxlength="1" size="1" > 
-                 <input type="text" id="name" maxlength="1" size="1" >
+                 <input type="text" id="name" maxlength="1" size="1" class="name" >
+                 <input type="text" id="name" maxlength="1" size="1" class="name" >
+                 <input type="text" id="name" maxlength="1" size="1" class="name" >
+                 <input type="text" id="name" maxlength="1" size="1" class="name" >
+                 <input type="text" id="name" maxlength="1" size="1" class="name" >
+                 <input type="text" id="name" maxlength="1" size="1" class="name" >
+                 <input type="text" id="name" maxlength="1" size="1" class="name" >
+                 <input type="text" id="name" maxlength="1" size="1" class="name" >
+                 <input type="text" id="name" maxlength="1" size="1" class="name" >
+                 <input type="text" id="name" maxlength="1" size="1" class="name" >
+                 <input type="text" id="name" maxlength="1" size="1" class="name" > 
+                 <input type="text" id="name" maxlength="1" size="1" class="name" > 
+                 <input type="text" id="name" maxlength="1" size="1" class="name" > 
+                 <input type="text" id="name" maxlength="1" size="1" class="name" >
                 </td>
 
                 </tr>
@@ -63,7 +67,7 @@
              <tr> 
              <td>
                  <label for="fname"><i><b>Preferred First Name:</b></i></label>
-                 <input type="text" id="fname" size="39">
+                 <input type="text" id="fname" size="39" maxlength="40">
              </td>   
 
              <td>
@@ -78,7 +82,7 @@
              <tr>   
              <td>
                  <label for="address"><i><b> Home Address </b> (street):</i></label>
-                 <input type="text" id="address" size="80">
+                 <input type="text" id="address" size="80" maxlength="100">
              </td>
              </tr>
              </table>
@@ -87,13 +91,22 @@
              <table>
              <tr>
              <td>
-                <label for="city"><i><b> City: </b></i></label>
-                <input type="text" id="city" size="40">
+                <label><i><b> Select Your City: </b></i></label>
+                <select id="city" >
+                    <option value="hyderabad">Hyderabad</option>
+                    <option value="Karachi">Karachi</option>
+                    <option value="Lahore">Lahore</option>
+                    <option value="Islamabad">Islamabad</option>
+                    <option value="Dadu">Dadu</option>
+                    <option value="Pishawar">Pishawar</option>
+                    <option value="Sibbi">Sibbi</option>
+                    <option value="Murre">Murre</option>
+                </select>
              </td>
 
              <td>
                 <label for="state"><i><b> State: </b></i></label>
-                <input type="text" id="state" size="15">
+                <input type="text" id="state" size="33">
              </td>
 
              <td>
@@ -300,7 +313,7 @@
                       <tr>
                         <td>
                             <label for="add"><i><b> Address:</b></i></label>
-                            <input type="text" id="add" size="97">
+                            <input type="text" id="add" size="97" maxlength="100">
                         </td>
                       </tr>
                 </table>
@@ -399,7 +412,7 @@
                       <tr>
                         <td>
                             <label for="add"><i><b> Address:</b></i></label>
-                            <input type="text" id="add" size="97">
+                            <input type="text" id="add" size="97" maxlength="100">
                         </td>
                       </tr>
                 </table>
